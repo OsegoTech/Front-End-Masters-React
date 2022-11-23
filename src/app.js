@@ -1,3 +1,7 @@
+import React from "react";
+import { render } from "react-dom";
+import Pet from "./pet";
+
 const Pet = (props) => {
   return React.createElement("div", {}, [
     React.createElement("h1", {}, props.name),
@@ -28,4 +32,4 @@ const App = () => {
 };
 
 const myRenderedApp = React.createElement(App);
-ReactDOM.render(myRenderedApp, document.getElementById("root"));
+render(myRenderedApp, document.getElementById("root"));

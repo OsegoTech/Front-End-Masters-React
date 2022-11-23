@@ -1,0 +1,7 @@
+node_nodules/
+.parcel-cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
